@@ -92,6 +92,7 @@ def run(now: dt.datetime | None = None, solve_plan: bool = True) -> dict:
         best = min(result["sources"], key=lambda s: result["sources"][s]["mae60"])
         log.append(f"Graded GW{g}: lowest miss {best} ({result['sources'][best]['mae60']:.2f}).")
     changed |= _write(DATA / "SCOREBOARD.md", scoreboard.render())
+    changed |= _write(DATA / "scoreboard.json", json.dumps(scoreboard.render_json(), indent=2) + "\n")
 
     # 4. Transfer plan
     team_id = cfg.get("team_id")

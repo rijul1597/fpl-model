@@ -32,6 +32,40 @@ def _per_gw(per_gw: dict, sources: list[str]) -> list[str]:
     return out
 
 
+def _live_grades() -> dict[str, dict]:
+    grades = {}
+    for f in sorted((DATA / "grades").glob("gw*.json")):
+        g = json.loads(f.read_text())
+        grades[str(g["gw"])] = g
+    return grades
+
+
+def render_json() -> dict:
+    """The same numbers as SCOREBOARD.md, for the app (data/scoreboard.json)."""
+    out = {"labels": LABELS, "live": None, "backtests": []}
+    grades = _live_grades()
+    if grades:
+        sources = list(next(iter(grades.values()))["sources"])
+        pooled = metrics.pool({int(k): v for k, v in grades.items()}, sources)
+        out["live"] = {
+            "gameweeks": pooled["gameweeks"],
+            "n60": pooled["n60"],
+            "pooled": pooled["sources"],
+            "per_gw": {g: {s: v["sources"][s]["mae60"] for s in sources} for g, v in grades.items()},
+        }
+    for f in sorted((DATA / "backtest").glob("*.json")):
+        bt = json.loads(f.read_text())
+        out["backtests"].append({
+            "season": bt["season"],
+            "note": bt["note"],
+            "gameweeks": bt["pooled"]["gameweeks"],
+            "n60": bt["pooled"]["n60"],
+            "pooled": bt["pooled"]["sources"],
+            "per_gw": {str(g): {s: v["sources"][s]["mae60"] for s in v["sources"]} for g, v in bt["per_gw"].items()},
+        })
+    return out
+
+
 def render() -> str:
     lines = [
         "# Scoreboard",
