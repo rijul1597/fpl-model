@@ -1,0 +1,73 @@
+{
+  "labels": {
+    "app_model": "FPL Planner model",
+    "fpl_ep_next": "FPL's own projection (ep_next)",
+    "form": "Form (FPL's form figure)",
+    "pts_per_start": "Season points per start"
+  },
+  "live": null,
+  "backtests": [
+    {
+      "season": "2026-27",
+      "note": "Rebuilt from the public vaastav dataset; injury flags at the time are unavailable, so every player is treated as fit. FPL's own projection is excluded because the dataset's copy was recorded after the matches.",
+      "gameweeks": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "n60": 1035,
+      "pooled": {
+        "app_model": {
+          "mae60": 2.4692,
+          "bias60": -0.9938,
+          "spearman60": 0.0912,
+          "top20_pts": 4.05,
+          "captain_pts": 3.6
+        },
+        "form": {
+          "mae60": 2.8273,
+          "bias60": -0.5378,
+          "spearman60": 0.1123,
+          "top20_pts": 3.95,
+          "captain_pts": 2.8
+        },
+        "pts_per_start": {
+          "mae60": 2.9222,
+          "bias60": -0.1723,
+          "spearman60": 0.1126,
+          "top20_pts": 4.0,
+          "captain_pts": 0.6
+        }
+      },
+      "per_gw": {
+        "2": {
+          "app_model": 2.4407,
+          "form": 3.1005,
+          "pts_per_start": 3.2536
+        },
+        "3": {
+          "app_model": 2.2674,
+          "form": 2.9693,
+          "pts_per_start": 3.1203
+        },
+        "4": {
+          "app_model": 2.6558,
+          "form": 2.7294,
+          "pts_per_start": 2.6971
+        },
+        "5": {
+          "app_model": 2.5286,
+          "form": 2.772,
+          "pts_per_start": 2.8705
+        },
+        "6": {
+          "app_model": 2.4667,
+          "form": 2.5544,
+          "pts_per_start": 2.6503
+        }
+      }
+    }
+  ]
+}
