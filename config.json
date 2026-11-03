@@ -1,0 +1,11 @@
+{
+  "team_id": 895045,
+  "freeze_window_hours": 36,
+  "horizon_projection": 8,
+  "horizon_solver": 6,
+  "solve_every_hours": 12,
+  "solver_settings": {
+    "decay_base": 0.9,
+    "no_transfer_last_gws": 2
+  }
+}

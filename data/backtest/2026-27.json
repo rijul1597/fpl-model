@@ -1,0 +1,190 @@
+{
+  "season": "2026-27",
+  "note": "Rebuilt from the public vaastav dataset; injury flags at the time are unavailable, so every player is treated as fit. FPL's own projection is excluded because the dataset's copy was recorded after the matches.",
+  "model_version": "cc2b106c871f",
+  "per_gw": {
+    "2": {
+      "n_players": 626,
+      "n60": 209,
+      "sources": {
+        "app_model": {
+          "mae60": 2.4407,
+          "bias60": -1.0871,
+          "spearman60": 0.1486,
+          "top20_pts": 3.15,
+          "captain_pts": 0.0,
+          "captain_id": 115
+        },
+        "form": {
+          "mae60": 3.1005,
+          "bias60": -0.1818,
+          "spearman60": 0.2163,
+          "top20_pts": 3.65,
+          "captain_pts": 0.0,
+          "captain_id": 115
+        },
+        "pts_per_start": {
+          "mae60": 3.2536,
+          "bias60": -0.3636,
+          "spearman60": 0.1694,
+          "top20_pts": 3.85,
+          "captain_pts": 0.0,
+          "captain_id": 115
+        }
+      }
+    },
+    "3": {
+      "n_players": 654,
+      "n60": 212,
+      "sources": {
+        "app_model": {
+          "mae60": 2.2674,
+          "bias60": -1.006,
+          "spearman60": 0.0611,
+          "top20_pts": 4.75,
+          "captain_pts": 4.0,
+          "captain_id": 115
+        },
+        "form": {
+          "mae60": 2.9693,
+          "bias60": -0.4127,
+          "spearman60": -0.0198,
+          "top20_pts": 3.5,
+          "captain_pts": 2.0,
+          "captain_id": 426
+        },
+        "pts_per_start": {
+          "mae60": 3.1203,
+          "bias60": -0.1203,
+          "spearman60": -0.029,
+          "top20_pts": 3.0,
+          "captain_pts": 3.0,
+          "captain_id": 399
+        }
+      }
+    },
+    "4": {
+      "n_players": 659,
+      "n60": 197,
+      "sources": {
+        "app_model": {
+          "mae60": 2.6558,
+          "bias60": -1.2321,
+          "spearman60": 0.0944,
+          "top20_pts": 5.0,
+          "captain_pts": 8.0,
+          "captain_id": 68
+        },
+        "form": {
+          "mae60": 2.7294,
+          "bias60": -0.7609,
+          "spearman60": 0.199,
+          "top20_pts": 4.9,
+          "captain_pts": 1.0,
+          "captain_id": 367
+        },
+        "pts_per_start": {
+          "mae60": 2.6971,
+          "bias60": -0.3756,
+          "spearman60": 0.2431,
+          "top20_pts": 4.05,
+          "captain_pts": 0.0,
+          "captain_id": 123
+        }
+      }
+    },
+    "5": {
+      "n_players": 667,
+      "n60": 211,
+      "sources": {
+        "app_model": {
+          "mae60": 2.5286,
+          "bias60": -1.3364,
+          "spearman60": 0.0991,
+          "top20_pts": 4.1,
+          "captain_pts": 6.0,
+          "captain_id": 411
+        },
+        "form": {
+          "mae60": 2.772,
+          "bias60": -0.8592,
+          "spearman60": 0.0773,
+          "top20_pts": 4.35,
+          "captain_pts": 5.0,
+          "captain_id": 330
+        },
+        "pts_per_start": {
+          "mae60": 2.8705,
+          "bias60": -0.218,
+          "spearman60": 0.0814,
+          "top20_pts": 4.9,
+          "captain_pts": 0.0,
+          "captain_id": 123
+        }
+      }
+    },
+    "6": {
+      "n_players": 667,
+      "n60": 206,
+      "sources": {
+        "app_model": {
+          "mae60": 2.4667,
+          "bias60": -0.3078,
+          "spearman60": 0.0528,
+          "top20_pts": 3.25,
+          "captain_pts": 0.0,
+          "captain_id": 379
+        },
+        "form": {
+          "mae60": 2.5544,
+          "bias60": -0.4854,
+          "spearman60": 0.0959,
+          "top20_pts": 3.35,
+          "captain_pts": 6.0,
+          "captain_id": 124
+        },
+        "pts_per_start": {
+          "mae60": 2.6503,
+          "bias60": 0.2094,
+          "spearman60": 0.1081,
+          "top20_pts": 4.2,
+          "captain_pts": 0.0,
+          "captain_id": 123
+        }
+      }
+    }
+  },
+  "pooled": {
+    "gameweeks": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "n60": 1035,
+    "sources": {
+      "app_model": {
+        "mae60": 2.4692,
+        "bias60": -0.9938,
+        "spearman60": 0.0912,
+        "top20_pts": 4.05,
+        "captain_pts": 3.6
+      },
+      "form": {
+        "mae60": 2.8273,
+        "bias60": -0.5378,
+        "spearman60": 0.1123,
+        "top20_pts": 3.95,
+        "captain_pts": 2.8
+      },
+      "pts_per_start": {
+        "mae60": 2.9222,
+        "bias60": -0.1723,
+        "spearman60": 0.1126,
+        "top20_pts": 4.0,
+        "captain_pts": 0.6
+      }
+    }
+  }
+}
