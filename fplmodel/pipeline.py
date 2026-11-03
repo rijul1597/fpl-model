@@ -99,7 +99,8 @@ def run(now: dt.datetime | None = None, solve_plan: bool = True) -> dict:
     plan_file = DATA / "plans" / "latest.json"
     if solve_plan and team_id:
         old = json.loads(plan_file.read_text()) if plan_file.exists() else None
-        stale = (old is None or old.get("team_id") != team_id or old.get("next_gw") != gw
+        stale = (old is None or old.get("format") != solve.PLAN_FORMAT
+                 or old.get("team_id") != team_id or old.get("next_gw") != gw
                  or (now - _parse(old["solved_at"])).total_seconds() > cfg["solve_every_hours"] * 3600)
         if stale:
             p = solve.plan(solver_csv, team_id=team_id, horizon=cfg["horizon_solver"], settings=cfg.get("solver_settings"))

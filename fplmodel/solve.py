@@ -20,6 +20,7 @@ from . import ROOT, fpl
 SOLVER_DIR = Path(os.environ.get("FPL_SOLVER_DIR", ROOT / "vendor" / "solver"))
 SOLVER_COMMIT = "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79"
 THRESHOLD = 0.5
+PLAN_FORMAT = 2  # bump when the plan JSON changes shape; the pipeline re-solves old plans
 
 
 def _load_solver():
@@ -84,6 +85,7 @@ def _summarise(best: dict, data: dict, team_id, horizon: int, options: dict) -> 
             "bench": _names(bench),
         })
     return {
+        "format": PLAN_FORMAT,
         "team_id": team_id,
         "next_gw": int(data["next_gw"]),
         "horizon": horizon,
