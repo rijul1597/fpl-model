@@ -1,0 +1,13 @@
+{
+  "gw": 10,
+  "deadline": "2026-11-06T18:30:00Z",
+  "frozen_at": "2026-11-05T11:07:11Z",
+  "hours_before_deadline": 31.38,
+  "model_version": "cc2b106c871f",
+  "sources": [
+    "app_model",
+    "fpl_ep_next",
+    "form",
+    "pts_per_start"
+  ]
+}
