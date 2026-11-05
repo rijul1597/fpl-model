@@ -274,7 +274,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 227,Travers,EVE,GKP,5.0,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 228,King,EVE,GKP,4.5,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 229,Tarkowski,EVE,DEF,6.2,a,,,5.224,1.0,86.0,2.8,2.8,6.0
-230,Branthwaite,EVE,DEF,5.5,a,100.0,,4.518,0.884,78.6,3.2,3.2,5.0
+230,Branthwaite,EVE,DEF,5.5,d,75.0,Unspecified injury - 75% chance of playing,3.389,0.663,59.0,2.4,3.2,5.0
 231,Keane,EVE,DEF,4.7,a,,,0.687,0.115,14.3,0.5,0.5,2.0
 232,O'Brien,EVE,DEF,4.8,a,,,1.34,0.236,24.7,2.5,2.5,6.0
 233,Mykolenko,EVE,DEF,4.6,a,100.0,,3.819,0.88,78.4,1.8,1.8,4.25
@@ -323,7 +323,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 650,Affengruber,FUL,DEF,4.5,a,100.0,,3.469,0.667,61.7,4.5,4.5,5.0
 240,Iroegbunam,HUL,MID,5.0,a,100.0,,1.439,0.275,28.1,4.8,4.8,10.5
 273,Phillips,HUL,GKP,4.0,a,,,0.214,0.0,4.4,0.0,0.0,0.0
-274,Butland,HUL,GKP,4.4,d,50.0,Arm injury - 50% chance of playing,0.107,0.0,2.2,0.0,0.0,0.0
+274,Butland,HUL,GKP,4.4,a,100.0,,0.214,0.0,4.4,0.0,0.0,0.0
 275,Cartwright,HUL,GKP,4.0,u,0.0,Has joined Grimsby Town on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 276,Lo-Tutala,HUL,GKP,4.0,u,0.0,Has joined Colchester United on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 277,Egan,HUL,DEF,4.1,a,,,3.675,0.971,84.2,2.5,2.5,4.0
@@ -346,12 +346,12 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 294,Zambrano,HUL,MID,4.5,a,100.0,,0.255,0.0,4.4,0.0,0.0,0.0
 295,McBurnie,HUL,FWD,5.5,a,,,3.372,0.993,85.6,5.8,5.8,4.0
 296,Akintola,HUL,MID,5.0,u,0.0,Has joined Omonoia FC permanently,0.0,0.0,0.0,0.0,0.0,0.0
-297,Gyabi,HUL,MID,4.4,i,0.0,Thigh injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
+297,Gyabi,HUL,MID,4.4,d,75.0,Thigh injury - 75% chance of playing,0.191,0.0,3.3,0.0,0.0,0.0
 298,Destan,HUL,FWD,4.5,u,0.0,Has joined Konyaspor permanently,0.0,0.0,0.0,0.0,0.0,0.0
 299,Burstow,HUL,FWD,4.5,u,0.0,Has joined Sheffield Wednesday on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 340,Gelhardt,HUL,MID,5.0,a,100.0,,0.918,0.115,14.3,2.8,2.8,12.0
 556,Targett,HUL,DEF,3.9,i,0.0,Ankle injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
-563,Morita,HUL,MID,4.9,a,100.0,,0.794,0.119,14.6,1.0,1.0,5.0
+563,Morita,HUL,MID,4.9,i,0.0,Groin injury - Unknown return date,0.0,0.0,0.0,0.0,1.0,5.0
 572,Tzolakis,HUL,GKP,4.7,a,,,3.696,1.0,86.0,2.2,2.2,4.778
 574,Hjertø-Dahl,HUL,MID,4.8,a,,,0.269,0.004,4.7,0.0,0.0,0.0
 576,Stroud,HUL,MID,4.9,a,,,2.112,0.609,56.8,2.0,2.0,2.5
@@ -403,14 +403,14 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 260,Wilson,LEE,MID,6.2,a,100.0,,1.379,0.354,34.9,1.5,1.5,3.667
 326,Perri,LEE,GKP,4.5,u,0.0,Has joined Torino on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 327,Bijol,LEE,DEF,5.0,a,,,2.04,0.327,32.6,2.2,2.2,7.0
-329,Rodon,LEE,DEF,4.2,i,0.0,Hamstring injury - Expected back 21 Nov,0.0,0.0,0.0,0.0,0.0,3.5
+329,Rodon,LEE,DEF,4.2,a,100.0,,1.012,0.194,21.1,0.0,0.0,3.5
 330,Bogle,LEE,DEF,4.8,a,,,4.519,0.956,83.2,2.2,2.2,5.667
 331,Gudmundsson,LEE,DEF,4.5,a,100.0,,2.717,0.756,69.4,3.2,3.2,3.857
 332,Justin,LEE,DEF,4.5,a,,,4.323,0.991,85.4,4.0,4.0,4.667
 333,Bornauw,LEE,DEF,4.5,u,0.0,Has joined Hamburg SV on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 334,Muharemović,LEE,DEF,5.1,a,,,4.794,1.0,86.0,4.8,4.8,5.111
-335,Stach,LEE,MID,6.0,a,100.0,,3.759,0.8,73.2,1.5,1.5,4.714
-336,Okafor,LEE,MID,5.8,d,75.0,Thigh injury - 75% chance of playing,1.73,0.473,44.0,0.9,1.2,3.833
+335,Stach,LEE,MID,6.0,d,50.0,Foot injury - 50% chance of playing,1.879,0.4,36.6,0.8,1.5,4.714
+336,Okafor,LEE,MID,5.8,d,50.0,Thigh injury - 50% chance of playing,1.153,0.315,29.3,0.6,1.2,3.833
 337,Aaronson,LEE,MID,5.2,a,,,1.264,0.34,33.6,1.2,1.2,4.0
 338,Ampadu,LEE,MID,5.3,a,,,3.721,1.0,86.0,1.8,1.8,3.111
 339,Longstaff,LEE,MID,4.8,a,,,0.373,0.022,6.3,0.8,0.8,0.0
@@ -419,7 +419,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 343,James,LEE,MID,4.9,a,100.0,,0.783,0.124,15.1,0.5,0.5,5.0
 344,Gruev,LEE,MID,5.0,a,100.0,,0.272,0.0,4.4,0.0,0.0,0.0
 345,Tanaka,LEE,MID,4.9,a,,,3.073,0.742,68.2,2.0,2.0,3.143
-346,Calvert-Lewin,LEE,FWD,6.1,a,100.0,,4.406,0.982,84.8,3.8,3.8,4.111
+346,Calvert-Lewin,LEE,FWD,6.1,d,75.0,Foot injury - 75% chance of playing,3.304,0.736,63.6,2.8,3.8,4.111
 347,Nmecha,LEE,FWD,5.3,a,,,0.566,0.06,9.5,1.0,1.0,0.0
 348,Piroe,LEE,FWD,5.0,u,0.0,Has joined West Ham United on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 349,Mateo Joseph,LEE,FWD,4.5,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
@@ -549,7 +549,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 454,Elanga,NEW,MID,6.0,a,100.0,,1.869,0.425,40.9,0.8,0.8,5.25
 456,J.Ramsey,NEW,MID,4.8,s,0.0,Suspended until 21 Nov,0.0,0.0,0.0,0.0,-0.2,0.0
 457,J.Murphy,NEW,MID,5.9,a,,,1.733,0.436,41.9,2.0,2.0,2.75
-458,Joelinton,NEW,MID,5.4,a,100.0,,1.359,0.337,33.4,1.5,1.5,2.0
+458,Joelinton,NEW,MID,5.4,i,0.0,Unspecified injury - Unknown return date,0.0,0.0,0.0,0.0,1.5,2.0
 459,L.Miley,NEW,MID,5.5,d,75.0,Muscular injury - 75% chance of playing,2.179,0.551,50.7,0.6,0.8,2.143
 460,Willock,NEW,MID,5.0,a,,,2.949,0.731,67.3,1.8,1.8,4.143
 461,Touré,NEW,MID,5.7,a,100.0,,0.53,0.058,9.4,0.8,0.8,0.0
@@ -589,11 +589,11 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 484,Hutchinson,NFO,MID,5.4,u,0.0,Has joined AC Milan on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 485,Bakwa,NFO,MID,5.5,u,0.0,Has joined Lille on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 486,McAtee,NFO,MID,5.5,a,,,4.252,0.98,84.7,3.5,3.5,2.889
-487,Dominguez,NFO,MID,4.8,d,75.0,Muscular injury - 75% chance of playing,0.485,0.077,10.0,0.6,0.8,4.0
+487,Dominguez,NFO,MID,4.8,i,0.0,Muscular injury - Expected back 30 Dec,0.0,0.0,0.0,0.0,0.8,4.0
 488,I.Sangaré,NFO,MID,4.7,a,100.0,,0.802,0.138,16.3,0.5,0.5,6.0
 489,Yates,NFO,MID,4.4,a,100.0,,0.397,0.022,6.3,0.2,0.2,0.0
 490,Wood,NFO,FWD,5.7,a,,,0.566,0.055,9.1,1.0,1.0,0.0
-491,Igor Jesus,NFO,FWD,5.6,i,0.0,Calf injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,6.0
+491,Igor Jesus,NFO,FWD,5.6,d,75.0,Calf injury - 75% chance of playing,1.131,0.195,20.1,0.0,0.0,6.0
 493,Kalimuendo,NFO,FWD,5.4,a,,,0.416,0.025,6.5,0.8,0.8,0.0
 558,Schlager,NFO,MID,5.0,a,,,3.646,0.862,77.2,2.8,2.8,3.0
 581,Diomande,NFO,DEF,5.3,a,,,1.911,0.436,41.9,0.8,0.8,2.5
