@@ -1,8 +1,8 @@
 {
   "gw": 10,
   "deadline": "2026-11-06T18:30:00Z",
-  "frozen_at": "2026-11-05T18:50:10Z",
-  "hours_before_deadline": 23.66,
+  "frozen_at": "2026-11-06T00:23:30Z",
+  "hours_before_deadline": 18.11,
   "model_version": "cc2b106c871f",
   "sources": [
     "app_model",

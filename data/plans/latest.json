@@ -3,7 +3,7 @@
   "team_id": 7632746,
   "next_gw": 10,
   "horizon": 6,
-  "solved_at": "2026-11-05T11:07:18Z",
+  "solved_at": "2026-11-06T00:23:36Z",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "settings": {
     "decay_base": 0.9,
@@ -26,11 +26,11 @@
       "chip": null,
       "transfers_out": [
         {
-          "id": 233,
-          "name": "Mykolenko",
+          "id": 31,
+          "name": "Konsa",
           "pos": "DEF",
-          "team": "Everton",
-          "xp": 3.82
+          "team": "Arsenal",
+          "xp": 3.42
         },
         {
           "id": 154,
@@ -71,13 +71,13 @@
         }
       ],
       "hits": 0,
-      "bank": 4.9,
+      "bank": 5.0,
       "free_transfers": 3,
       "captain": "Gabriel",
       "captain_id": 4,
       "vice_captain": "Tavernier",
       "vice_captain_id": 68,
-      "lineup_xp": 62.41,
+      "lineup_xp": 62.4,
       "lineup": [
         {
           "id": 1,
@@ -108,13 +108,6 @@
           "xp": 4.79
         },
         {
-          "id": 31,
-          "name": "Konsa",
-          "pos": "DEF",
-          "team": "Arsenal",
-          "xp": 4.56
-        },
-        {
           "id": 68,
           "name": "Tavernier",
           "pos": "MID",
@@ -134,6 +127,13 @@
           "pos": "MID",
           "team": "Brighton",
           "xp": 4.74
+        },
+        {
+          "id": 236,
+          "name": "Dewsbury-Hall",
+          "pos": "MID",
+          "team": "Everton",
+          "xp": 4.55
         },
         {
           "id": 249,
@@ -166,18 +166,18 @@
           "xp": 0.21
         },
         {
-          "id": 236,
-          "name": "Dewsbury-Hall",
-          "pos": "MID",
-          "team": "Everton",
-          "xp": 4.55
-        },
-        {
           "id": 183,
           "name": "Rudoni",
           "pos": "MID",
           "team": "Coventry City",
           "xp": 3.89
+        },
+        {
+          "id": 233,
+          "name": "Mykolenko",
+          "pos": "DEF",
+          "team": "Everton",
+          "xp": 3.82
         },
         {
           "id": 259,
@@ -193,11 +193,11 @@
       "chip": null,
       "transfers_out": [
         {
-          "id": 31,
-          "name": "Konsa",
+          "id": 233,
+          "name": "Mykolenko",
           "pos": "DEF",
-          "team": "Arsenal",
-          "xp": 4.16
+          "team": "Everton",
+          "xp": 2.85
         }
       ],
       "transfers_in": [
