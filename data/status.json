@@ -1,11 +1,11 @@
 {
-  "next_gw": 10,
-  "deadline": "2026-11-06T18:30:00Z",
+  "next_gw": 11,
+  "deadline": "2026-11-21T11:00:00Z",
   "model_version": "cc2b106c871f",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "log": [
-    "Froze GW10 projections, 2.5h before the deadline.",
-    "Planned team 7632746: GW10 Mykolenko, Palmer, Kusi-Asare -> Gabriel, Barry, Rudoni; captain Gabriel."
+    "GW11 deadline in 349.4h; snapshots start 36h before it.",
+    "Planned team 7632746: GW11 Mykolenko, Konsa, Palmer, Kusi-Asare -> Gabriel, Van Hecke, Rudoni, Barry; captain Haaland."
   ],
-  "last_change": "2026-11-06T15:59:13Z"
+  "last_change": "2026-11-06T21:35:45Z"
 }
