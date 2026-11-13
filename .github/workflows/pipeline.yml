@@ -49,10 +49,14 @@ jobs:
       - name: Install
         run: pip install -r requirements.txt
 
+      - name: Self-test
+        run: python tests/test_metrics.py
+
       - name: Run the pipeline
         run: python -m fplmodel.pipeline | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Commit outputs
+        if: always() # keep whatever the run did produce, even if a step failed
         run: |
           git add data
           if git diff --cached --quiet; then echo "No output changes"; exit 0; fi

@@ -6,6 +6,12 @@ MIN_MINUTES = 60  # same filter as Onside's open benchmark, so numbers are compa
 TOP_N = 20
 
 
+def spearman(a: pd.Series, b: pd.Series) -> float:
+    """Spearman rank correlation without scipy (pandas' method='spearman' imports it): Pearson on average ranks."""
+    r = a.rank().corr(b.rank())
+    return float(r) if pd.notna(r) else 0.0
+
+
 def grade(frame: pd.DataFrame, sources: list[str]) -> dict:
     """frame: one row per player with 'points', 'minutes' and one projection column per source.
 
@@ -24,7 +30,7 @@ def grade(frame: pd.DataFrame, sources: list[str]) -> dict:
         out["sources"][s] = {
             "mae60": round(float(err.abs().mean()), 4),
             "bias60": round(float(err.mean()), 4),
-            "spearman60": round(float(played[s].corr(played["points"], method="spearman")), 4),
+            "spearman60": round(spearman(played[s], played["points"]), 4),
             "top20_pts": round(float(ranked.head(TOP_N)["points"].mean()), 4),
             "captain_pts": float(ranked.iloc[0]["points"]),
             "captain_id": int(ranked.iloc[0]["id"]),

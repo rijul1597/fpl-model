@@ -40,7 +40,7 @@ def run(now: dt.datetime | None = None, solve_plan: bool = True) -> dict:
     now = now or dt.datetime.now(dt.UTC)
     bootstrap = fpl.get("bootstrap-static/")
     fixtures = fpl.get("fixtures/")
-    log, changed = [], False
+    log, errors, changed = [], [], False
 
     nxt = next((e for e in bootstrap["events"] if e["is_next"]), None)
     if nxt is None:
@@ -80,13 +80,11 @@ def run(now: dt.datetime | None = None, solve_plan: bool = True) -> dict:
         ev = events.get(g, {})
         if out.exists() or not (ev.get("finished") and ev.get("data_checked")):
             continue
-        played = fpl.get(f"event/{g}/live/")["elements"]
-        actual = pd.DataFrame([{"id": e["id"], "points": e["stats"]["total_points"],
-                                "minutes": e["stats"]["minutes"]} for e in played])
-        frame = pd.read_csv(f).merge(actual, on="id", how="inner")
-        result = metrics.grade(frame, live.SOURCES)
-        manifest = json.loads((DATA / "snapshots" / f"{f.stem}.json").read_text())
-        result = {"gw": g, "frozen_at": manifest["frozen_at"], "model_version": manifest["model_version"], **result}
+        try:
+            result = _grade(f, g)
+        except Exception as e:  # one bad gameweek must not stop projections, freezing or the plan
+            errors.append(f"Grading GW{g} failed: {e!r}")
+            continue
         _write(out, json.dumps(result, indent=2) + "\n")
         changed = True
         best = min(result["sources"], key=lambda s: result["sources"][s]["mae60"])
@@ -103,21 +101,36 @@ def run(now: dt.datetime | None = None, solve_plan: bool = True) -> dict:
                  or old.get("team_id") != team_id or old.get("next_gw") != gw
                  or (now - _parse(old["solved_at"])).total_seconds() > cfg["solve_every_hours"] * 3600)
         if stale:
-            p = solve.plan(solver_csv, team_id=team_id, horizon=cfg["horizon_solver"], settings=cfg.get("solver_settings"))
-            _write(plan_file, json.dumps(p, indent=2) + "\n")
-            _write(DATA / "plans" / "latest.md", solve.to_markdown(p))
-            changed = True
-            first = p["weeks"][0]
-            move = ", ".join(x["name"] for x in first["transfers_out"]) or "roll"
-            log.append(f"Planned team {team_id}: GW{first['gw']} {move} -> "
-                       f"{', '.join(x['name'] for x in first['transfers_in']) or '-'}; captain {first['captain']}.")
+            try:
+                p = solve.plan(solver_csv, team_id=team_id, horizon=cfg["horizon_solver"],
+                               settings=cfg.get("solver_settings"))
+            except Exception as e:  # keep the previous plan rather than failing the whole run
+                errors.append(f"Planning team {team_id} failed: {e!r}")
+            else:
+                _write(plan_file, json.dumps(p, indent=2) + "\n")
+                _write(DATA / "plans" / "latest.md", solve.to_markdown(p))
+                changed = True
+                first = p["weeks"][0]
+                move = ", ".join(x["name"] for x in first["transfers_out"]) or "roll"
+                log.append(f"Planned team {team_id}: GW{first['gw']} {move} -> "
+                           f"{', '.join(x['name'] for x in first['transfers_in']) or '-'}; captain {first['captain']}.")
 
     status = {"next_gw": gw, "deadline": nxt["deadline_time"], "model_version": appmodel.model_version(),
-              "solver_commit": solve.SOLVER_COMMIT, "log": log}
-    if changed:
+              "solver_commit": solve.SOLVER_COMMIT, "log": log, "errors": errors}
+    if changed or errors:
         status["last_change"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
         _write(DATA / "status.json", json.dumps(status, indent=2) + "\n")
-    return {"log": log, "changed": changed}
+    return {"log": log, "errors": errors, "changed": changed}
+
+
+def _grade(f, g: int) -> dict:
+    played = fpl.get(f"event/{g}/live/")["elements"]
+    actual = pd.DataFrame([{"id": e["id"], "points": e["stats"]["total_points"],
+                            "minutes": e["stats"]["minutes"]} for e in played])
+    frame = pd.read_csv(f).merge(actual, on="id", how="inner")
+    result = metrics.grade(frame, live.SOURCES)
+    manifest = json.loads((DATA / "snapshots" / f"{f.stem}.json").read_text())
+    return {"gw": g, "frozen_at": manifest["frozen_at"], "model_version": manifest["model_version"], **result}
 
 
 def main():
@@ -127,6 +140,9 @@ def main():
     res = run(solve_plan=not args.no_solve)
     print("\n".join(res["log"]))
     print("outputs changed" if res["changed"] else "no output changes")
+    if res["errors"]:
+        print("\n".join("ERROR: " + e for e in res["errors"]))
+        raise SystemExit(1)  # outputs are still committed (the workflow commits on failure too)
 
 
 if __name__ == "__main__":
