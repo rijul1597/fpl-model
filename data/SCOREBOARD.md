@@ -4,7 +4,20 @@ How each set of projections did against actual FPL points. **Avg miss** is the m
 
 ## Live: projections frozen before each deadline
 
-No gameweek graded yet. The first live grade lands after the first frozen gameweek finishes.
+1 gameweek(s), 204 player-gameweeks with 60+ minutes.
+
+| Source | Avg miss, 60+ min players | Bias | Rank corr. | Avg pts of top-20 picks | Avg captain pts |
+|---|---|---|---|---|---|
+| FPL Planner model | 2.30 | -0.78 | 0.25 | 6.10 | 8.0 |
+| Season points per start | 2.54 | +0.22 | 0.26 | 1.90 | 1.0 |
+| FPL's own projection (ep_next) | 2.54 | -0.73 | 0.07 | 4.85 | 8.0 |
+| Form (FPL's form figure) | 2.55 | -0.71 | 0.07 | 4.85 | 8.0 |
+
+Avg miss by gameweek:
+
+| GW | FPL Planner model | FPL's own projection (ep_next) | Form (FPL's form figure) | Season points per start |
+|---|---|---|---|---|
+| 10 | 2.30 | 2.54 | 2.55 | 2.54 |
 
 ## Backtest: 2026-27, GW2–GW6
 

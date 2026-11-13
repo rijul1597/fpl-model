@@ -5,7 +5,50 @@
     "form": "Form (FPL's form figure)",
     "pts_per_start": "Season points per start"
   },
-  "live": null,
+  "live": {
+    "gameweeks": [
+      10
+    ],
+    "n60": 204,
+    "pooled": {
+      "app_model": {
+        "mae60": 2.2953,
+        "bias60": -0.7823,
+        "spearman60": 0.2466,
+        "top20_pts": 6.1,
+        "captain_pts": 8.0
+      },
+      "fpl_ep_next": {
+        "mae60": 2.5446,
+        "bias60": -0.7328,
+        "spearman60": 0.0714,
+        "top20_pts": 4.85,
+        "captain_pts": 8.0
+      },
+      "form": {
+        "mae60": 2.55,
+        "bias60": -0.7118,
+        "spearman60": 0.0722,
+        "top20_pts": 4.85,
+        "captain_pts": 8.0
+      },
+      "pts_per_start": {
+        "mae60": 2.5402,
+        "bias60": 0.2189,
+        "spearman60": 0.2604,
+        "top20_pts": 1.9,
+        "captain_pts": 1.0
+      }
+    },
+    "per_gw": {
+      "10": {
+        "app_model": 2.2953,
+        "fpl_ep_next": 2.5446,
+        "form": 2.55,
+        "pts_per_start": 2.5402
+      }
+    }
+  },
   "backtests": [
     {
       "season": "2026-27",
