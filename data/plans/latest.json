@@ -3,7 +3,7 @@
   "team_id": 7632746,
   "next_gw": 11,
   "horizon": 6,
-  "solved_at": "2026-11-13T17:50:13Z",
+  "solved_at": "2026-11-14T06:38:46Z",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "settings": {
     "decay_base": 0.9,
@@ -19,7 +19,7 @@
   },
   "bank_now": 4.8,
   "free_transfers_now": 4,
-  "total_xp": 378.52,
+  "total_xp": 378.53,
   "weeks": [
     {
       "gw": 11,
