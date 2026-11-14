@@ -93,27 +93,33 @@ def run(now: dt.datetime | None = None, solve_plan: bool = True) -> dict:
     changed |= _write(DATA / "scoreboard.json", json.dumps(scoreboard.render_json(), indent=2) + "\n")
 
     # 4. Transfer plan
-    team_id = cfg.get("team_id")
-    plan_file = DATA / "plans" / "latest.json"
-    if solve_plan and team_id:
+    team_ids = list(dict.fromkeys(cfg.get("team_ids") or ([cfg["team_id"]] if cfg.get("team_id") else [])))
+    plans_dir = DATA / "plans"
+    for i, team_id in enumerate(team_ids if solve_plan else []):
+        plan_file = plans_dir / f"{team_id}.json"
         old = json.loads(plan_file.read_text()) if plan_file.exists() else None
-        stale = (old is None or old.get("format") != solve.PLAN_FORMAT
-                 or old.get("team_id") != team_id or old.get("next_gw") != gw
+        stale = (old is None or old.get("format") != solve.PLAN_FORMAT or old.get("next_gw") != gw
                  or (now - _parse(old["solved_at"])).total_seconds() > cfg["solve_every_hours"] * 3600)
-        if stale:
-            try:
-                p = solve.plan(solver_csv, team_id=team_id, horizon=cfg["horizon_solver"],
-                               settings=cfg.get("solver_settings"))
-            except Exception as e:  # keep the previous plan rather than failing the whole run
-                errors.append(f"Planning team {team_id} failed: {e!r}")
-            else:
-                _write(plan_file, json.dumps(p, indent=2) + "\n")
-                _write(DATA / "plans" / "latest.md", solve.to_markdown(p))
-                changed = True
-                first = p["weeks"][0]
-                move = ", ".join(x["name"] for x in first["transfers_out"]) or "roll"
-                log.append(f"Planned team {team_id}: GW{first['gw']} {move} -> "
-                           f"{', '.join(x['name'] for x in first['transfers_in']) or '-'}; captain {first['captain']}.")
+        if not stale:
+            continue
+        try:
+            p = solve.plan(solver_csv, team_id=team_id, horizon=cfg["horizon_solver"],
+                           settings=cfg.get("solver_settings"))
+        except Exception as e:  # keep the previous plan rather than failing the whole run
+            errors.append(f"Planning team {team_id} failed: {e!r}")
+            continue
+        _write(plan_file, json.dumps(p, indent=2) + "\n")
+        _write(plans_dir / f"{team_id}.md", solve.to_markdown(p))
+        if i == 0:  # the first team also keeps the old latest.* paths
+            _write(plans_dir / "latest.json", json.dumps(p, indent=2) + "\n")
+            _write(plans_dir / "latest.md", solve.to_markdown(p))
+        changed = True
+        first = p["weeks"][0]
+        move = ", ".join(x["name"] for x in first["transfers_out"]) or "roll"
+        log.append(f"Planned team {team_id}: GW{first['gw']} {move} -> "
+                   f"{', '.join(x['name'] for x in first['transfers_in']) or '-'}; captain {first['captain']}.")
+    if solve_plan:
+        changed |= _write(plans_dir / "index.json", json.dumps({"team_ids": team_ids}) + "\n")
 
     status = {"next_gw": gw, "deadline": nxt["deadline_time"], "model_version": appmodel.model_version(),
               "solver_commit": solve.SOLVER_COMMIT, "log": log, "errors": errors}

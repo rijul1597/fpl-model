@@ -36,7 +36,7 @@ Plans come from [FPL-Optimization-Tools](https://github.com/sertalpbilal/FPL-Opt
 - **Inputs:** our projections plus your team ID. It works out your selling prices and free transfers from your public FPL transfer history.
 - **Model:** a mixed-integer program solved with HiGHS, covering rolled free transfers, hits, lineup, captain and chips.
 
-To plan for a different team, change `team_id` in [`config.json`](config.json).
+Plans are made for every team in `team_ids` in [`config.json`](config.json) and written to `data/plans/<team id>.json`; the app's Plan tab shows the one matching the team loaded there.
 
 ## Run it locally
 
