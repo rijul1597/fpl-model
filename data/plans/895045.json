@@ -3,7 +3,7 @@
   "team_id": 895045,
   "next_gw": 11,
   "horizon": 6,
-  "solved_at": "2026-11-17T14:35:56Z",
+  "solved_at": "2026-11-18T04:30:41Z",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "settings": {
     "decay_base": 0.9,
