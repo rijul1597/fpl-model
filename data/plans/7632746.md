@@ -1,6 +1,6 @@
 # Transfer plan for team 7632746
 
-Planned 2026-11-18T22:04:37Z for GW11–GW16, from the FPL Planner model's projections. Bank £4.8m, 4 free transfer(s).
+Planned 2026-11-19T13:25:42Z for GW11–GW16, from the FPL Planner model's projections. Bank £4.8m, 4 free transfer(s).
 
 | GW | Move | Hits | Captain | Lineup xP |
 |---|---|---|---|---|
