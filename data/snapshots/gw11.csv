@@ -30,7 +30,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 557,Tzolis,ARS,MID,6.1,a,100.0,,2.573,0.648,60.1,2.0,2.0,3.143
 29,M.Bizot,AVL,GKP,4.5,a,100.0,,0.516,0.1,13.0,0.0,0.0,1.0
 30,Digne,AVL,DEF,4.5,u,0.0,Has joined Paris Saint-Germain permanently,0.0,0.0,0.0,0.0,0.0,0.0
-32,Cash,AVL,DEF,4.3,d,75.0,Concussion - 75% chance of playing,1.804,0.534,49.2,1.0,1.3,2.571
+32,Cash,AVL,DEF,4.3,i,0.0,Concussion - Expected back 28 Nov,0.0,0.0,0.0,0.0,1.3,2.571
 33,Mings,AVL,DEF,4.5,a,,,1.717,0.436,41.9,0.0,0.0,4.5
 34,Pau,AVL,DEF,4.4,a,100.0,,1.964,0.569,53.3,2.0,2.0,1.667
 35,Bogarde,AVL,MID,4.9,a,,,0.308,0.007,5.0,0.0,0.0,0.0
@@ -48,7 +48,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 50,Burrowes,AVL,MID,4.4,a,,,0.286,0.0,4.4,0.0,0.0,0.0
 51,George Hemmings,AVL,MID,4.4,a,100.0,,1.439,0.38,37.1,0.3,0.3,2.5
 52,Alysson,AVL,MID,4.9,a,100.0,,1.794,0.386,37.6,6.3,6.3,7.0
-53,Manzambi,AVL,MID,6.2,d,75.0,Calf injury - 75% chance of playing,2.469,0.424,39.7,2.5,3.3,6.667
+53,Manzambi,AVL,MID,6.2,a,100.0,,3.292,0.565,53.0,3.3,3.3,6.667
 54,Gomes,AVL,MID,5.5,a,100.0,,1.876,0.479,45.6,1.3,1.3,2.6
 55,Watkins,AVL,FWD,7.8,u,0.0,Has joined Al Hilal permanently,0.0,0.0,0.0,0.0,0.0,0.0
 56,Abraham,AVL,FWD,5.5,a,100.0,,0.445,0.032,7.1,0.0,0.0,0.0
@@ -59,7 +59,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 597,Suzuki,AVL,GKP,5.1,a,,,3.315,0.9,79.6,1.7,1.7,3.444
 606,Rowe,AVL,DEF,4.0,a,,,0.243,0.0,4.4,0.0,0.0,0.0
 607,Lynch,AVL,MID,4.5,u,0.0,Has joined Oxford United on loan until January,0.0,0.0,0.0,0.0,0.0,0.0
-611,Wan-Bissaka,AVL,DEF,4.5,d,50.0,Hamstring injury - 50% chance of playing,0.673,0.151,15.2,0.0,0.0,4.333
+611,Wan-Bissaka,AVL,DEF,4.5,a,100.0,,1.347,0.301,30.3,0.0,0.0,4.333
 618,Goretzka,AVL,MID,5.9,a,100.0,,1.121,0.195,21.1,3.3,3.3,5.5
 630,Harwood-Bellis,AVL,DEF,4.5,a,,,0.577,0.1,13.0,0.0,0.0,0.0
 631,Mbaye,AVL,MID,6.0,a,,,0.571,0.064,9.9,2.0,2.0,0.0
@@ -96,13 +96,13 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 615,Di Gregorio,BOU,GKP,4.5,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 82,Kelleher,BRE,GKP,5.0,a,,,3.449,1.0,86.0,3.7,3.7,3.5
 83,Valdimarsson,BRE,GKP,4.4,a,,,0.214,0.0,4.4,0.0,0.0,0.0
-84,Collins,BRE,DEF,5.4,d,75.0,Knee injury - 75% chance of playing,1.142,0.215,21.8,0.2,0.3,3.667
+84,Collins,BRE,DEF,5.4,i,0.0,Knee injury - Expected back 2 Dec,0.0,0.0,0.0,0.0,0.3,3.667
 85,Van den Berg,BRE,DEF,4.9,a,100.0,,1.979,0.381,37.2,4.3,4.3,3.5
 86,Lewis-Potter,BRE,MID,5.5,a,,,4.035,0.944,82.4,2.0,2.0,3.9
 87,Ajer,BRE,DEF,4.5,a,,,4.453,1.0,86.0,4.0,4.0,4.2
 88,Kayode,BRE,DEF,4.5,a,,,3.305,0.871,77.7,3.3,3.3,3.778
 89,Henry,BRE,DEF,4.4,i,0.0,Hip injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
-90,Hickey,BRE,DEF,4.5,d,75.0,Hamstring injury - 75% chance of playing,1.218,0.252,24.9,0.5,0.7,3.0
+90,Hickey,BRE,DEF,4.5,i,0.0,Hamstring injury - Expected back 2 Dec,0.0,0.0,0.0,0.0,0.7,3.0
 92,Ji-soo,BRE,DEF,4.4,a,,,0.24,0.0,4.4,0.0,0.0,0.0
 93,Schuster,BRE,DEF,4.5,a,100.0,,2.032,0.312,31.3,0.0,0.0,7.333
 94,Schade,BRE,MID,6.1,a,100.0,,4.025,0.885,78.7,2.0,2.0,5.111
@@ -111,9 +111,9 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 97,Jensen,BRE,MID,5.4,a,100.0,,1.548,0.38,37.1,2.0,2.0,3.5
 98,Janelt,BRE,MID,5.0,a,100.0,,4.07,0.9,79.6,2.3,2.3,4.111
 99,Milambo,BRE,MID,5.0,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
-100,Carvalho,BRE,MID,5.0,i,0.0,Knock - Expected back 23 Nov,0.0,0.0,0.0,0.0,0.0,0.0
+100,Carvalho,BRE,MID,5.0,d,75.0,Knock - 75% chance of playing,0.241,0.001,3.4,0.0,0.0,0.0
 102,Yarmoliuk,BRE,MID,4.7,a,100.0,,1.764,0.408,39.5,0.3,0.3,4.0
-103,Dasilva,BRE,MID,4.8,d,25.0,Hamstring injury - 25% chance of playing,0.07,0.0,1.1,0.0,0.0,0.0
+103,Dasilva,BRE,MID,4.8,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
 105,Anthony,BRE,MID,5.9,a,,,2.736,0.51,48.3,1.7,1.7,5.4
 106,Thiago,BRE,FWD,7.8,s,0.0,Suspended until 5 Dec,0.0,0.0,0.0,0.0,4.0,3.0
 107,Furo,BRE,FWD,4.4,i,0.0,Unspecified injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
@@ -160,7 +160,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 639,Andrés,BHA,MID,5.5,a,100.0,,2.262,0.56,52.6,1.0,1.0,3.333
 652,Azeez,BHA,MID,5.5,a,100.0,,0.269,0.0,4.4,0.0,0.0,0.0
 658,Ibrahim,BHA,MID,4.5,a,,,0.269,0.0,4.4,0.0,0.0,0.0
-28,Martinez,CHE,GKP,4.9,d,75.0,Head injury - 75% chance of playing,1.864,0.445,41.5,0.0,0.0,3.333
+28,Martinez,CHE,GKP,4.9,a,100.0,,2.485,0.593,55.4,0.0,0.0,3.333
 40,Rogers,CHE,MID,8.2,a,,,4.434,0.991,85.4,4.0,4.0,5.2
 101,Henderson,CHE,MID,4.9,a,100.0,,2.123,0.498,47.2,1.3,1.3,5.4
 136,Welbeck,CHE,FWD,5.8,a,100.0,,0.745,0.116,14.4,1.0,1.0,9.0
@@ -171,16 +171,16 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 144,Gusto,CHE,DEF,4.8,a,100.0,,1.317,0.316,31.5,0.7,0.7,2.333
 145,Fofana,CHE,DEF,5.0,a,100.0,,3.021,0.579,54.2,4.0,4.0,3.333
 146,B.Badiashile,CHE,DEF,4.5,u,0.0,Has joined Napoli on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
-148,Hato,CHE,DEF,4.5,i,0.0,Unspecified injury - Unknown return date,0.0,0.0,0.0,0.0,2.0,4.167
+148,Hato,CHE,DEF,4.5,i,0.0,Back injury - Unknown return date,0.0,0.0,0.0,0.0,2.0,4.167
 149,Colwill,CHE,DEF,4.8,a,,,3.122,0.872,77.8,3.0,3.0,2.222
 150,M.Sarr,CHE,DEF,4.5,u,0.0,Has joined Real Sociedad on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
-151,Acheampong,CHE,DEF,4.5,d,75.0,Unspecified injury - 75% chance of playing,1.916,0.464,43.2,2.5,3.3,4.0
+151,Acheampong,CHE,DEF,4.5,a,100.0,,2.555,0.618,57.6,3.3,3.3,4.0
 152,Palestra,CHE,DEF,5.3,a,100.0,,0.892,0.199,21.5,2.7,2.7,5.0
 154,Palmer,CHE,MID,9.8,a,100.0,,4.045,0.99,85.4,3.0,3.0,4.7
 156,Neto,CHE,MID,6.6,a,,,3.624,0.868,77.6,2.3,2.3,4.556
 157,Estêvão,CHE,MID,6.3,a,,,0.83,0.139,16.4,1.7,1.7,10.0
 158,Gittens,CHE,MID,5.8,i,0.0,Ankle injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
-159,Caicedo,CHE,MID,5.3,d,75.0,Unspecified injury - 75% chance of playing,1.38,0.372,35.3,2.0,2.7,2.8
+159,Caicedo,CHE,MID,5.3,a,100.0,,1.84,0.496,47.0,2.7,2.7,2.8
 161,Lavia,CHE,MID,5.0,a,,,2.906,0.563,52.8,3.3,3.3,3.833
 163,D.Essugo,CHE,MID,4.5,u,0.0,Has joined RC Strasbourg on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 164,Quenda,CHE,MID,5.2,a,100.0,,0.632,0.109,13.8,1.7,1.7,8.0
@@ -336,7 +336,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 283,Jacob,HUL,DEF,4.0,u,0.0,Has joined Newport County on loan until January,0.0,0.0,0.0,0.0,0.0,0.0
 284,McCarthy,HUL,DEF,4.0,a,,,0.239,0.0,4.4,0.0,0.0,0.0
 285,McNair,HUL,DEF,3.9,a,100.0,,0.273,0.012,5.4,0.0,0.0,0.0
-286,Belloumi,HUL,MID,5.3,d,75.0,Hamstring injury - 75% chance of playing,2.638,0.588,53.9,2.2,3.0,6.0
+286,Belloumi,HUL,MID,5.3,a,100.0,,3.517,0.784,71.9,3.0,3.0,6.0
 287,Millar,HUL,MID,5.0,u,0.0,Has joined Birmingham on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 288,Dowell,HUL,MID,4.3,a,,,0.277,0.0,4.4,0.0,0.0,0.0
 289,Crooks,HUL,MID,4.4,a,100.0,,1.675,0.468,44.7,0.0,0.0,1.2
@@ -357,7 +357,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 574,Hjertø-Dahl,HUL,MID,4.8,a,,,0.291,0.004,4.7,0.0,0.0,0.0
 576,Stroud,HUL,MID,4.9,a,,,2.342,0.641,59.6,1.7,1.7,2.286
 585,Herrington,HUL,DEF,3.9,a,,,1.501,0.337,33.4,1.7,1.7,3.333
-586,Mendy,HUL,DEF,4.1,d,75.0,Knee injury - 75% chance of playing,2.531,0.488,45.3,1.5,2.0,4.857
+586,Mendy,HUL,DEF,4.1,a,100.0,,3.374,0.651,60.4,2.0,2.0,4.857
 589,Gourna-Douath,HUL,MID,4.9,a,100.0,,1.104,0.221,23.4,0.3,0.3,2.5
 617,Cho,HUL,MID,5.0,a,100.0,,0.957,0.143,16.7,1.0,1.0,12.0
 632,Ansah,HUL,FWD,4.9,i,0.0,Back injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
@@ -438,8 +438,8 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 353,Pecsi,LIV,GKP,4.0,u,0.0,Has joined TSV Hartberg on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 354,Jaros,LIV,GKP,4.0,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
 355,Davies,LIV,GKP,4.0,a,,,0.214,0.0,4.4,0.0,0.0,0.0
-356,Virgil,LIV,DEF,6.4,d,75.0,Unspecified injury - 75% chance of playing,3.043,0.75,64.5,3.5,4.7,4.3
-357,Frimpong,LIV,DEF,5.1,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,2.0
+356,Virgil,LIV,DEF,6.4,a,100.0,,4.057,1.0,86.0,4.7,4.7,4.3
+357,Frimpong,LIV,DEF,5.1,d,75.0,Hamstring injury - 75% chance of playing,0.683,0.156,16.7,0.0,0.0,2.0
 358,Kerkez,LIV,DEF,5.3,a,,,2.934,0.905,79.9,3.0,3.0,2.778
 359,Gomez,LIV,DEF,4.9,a,100.0,,0.274,0.006,4.9,0.3,0.3,0.0
 360,Bradley,LIV,DEF,4.9,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
@@ -473,12 +473,12 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 384,Donnarumma,MCI,GKP,5.4,a,,,3.433,1.0,86.0,1.3,1.3,3.3
 386,Bettinelli,MCI,GKP,4.4,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 387,O'Reilly,MCI,DEF,6.2,a,100.0,,2.209,0.4,38.8,0.7,0.7,3.75
-388,Guéhi,MCI,DEF,6.0,d,75.0,Unspecified injury - 75% chance of playing,2.877,0.645,57.8,0.0,0.0,4.111
-389,Matheus N.,MCI,DEF,5.9,a,100.0,,2.249,0.528,49.8,1.0,1.0,4.4
+388,Guéhi,MCI,DEF,6.0,d,75.0,Hip injury - 75% chance of playing,2.877,0.645,57.8,0.0,0.0,4.111
+389,Matheus N.,MCI,DEF,5.9,d,50.0,Unspecified injury - 50% chance of playing,1.124,0.264,24.9,0.5,1.0,4.4
 390,Rúben,MCI,DEF,5.5,a,,,3.532,1.0,86.0,1.3,1.3,2.8
-391,Gvardiol,MCI,DEF,5.6,d,75.0,Unspecified injury - 75% chance of playing,2.889,0.593,54.3,0.8,1.0,5.5
+391,Gvardiol,MCI,DEF,5.6,a,100.0,,3.852,0.791,72.4,1.0,1.0,5.5
 392,Aït-Nouri,MCI,DEF,5.1,a,,,0.239,0.0,4.4,0.0,0.0,0.0
-393,Khusanov,MCI,DEF,5.3,a,,,2.522,0.605,56.5,2.7,2.7,3.0
+393,Khusanov,MCI,DEF,5.3,d,50.0,Unspecified injury - 50% chance of playing,1.261,0.303,28.2,1.4,2.7,3.0
 394,Alleyne,MCI,DEF,5.0,u,0.0,Has joined Burnley on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 395,Lewis,MCI,DEF,4.3,a,,,0.635,0.105,13.4,0.3,0.3,2.0
 396,Vitor Reis,MCI,DEF,4.4,a,,,0.241,0.0,4.4,0.0,0.0,0.0
@@ -504,7 +504,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 43,Tielemans,MUN,MID,5.6,a,100.0,,3.56,0.83,75.1,2.3,2.3,3.444
 131,Baleba,MUN,MID,4.9,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,0.0,1.0,2.667
 162,Andrey Santos,MUN,MID,4.7,a,,,1.795,0.385,37.5,1.7,1.7,2.5
-325,Darlow,MUN,GKP,4.5,a,100.0,,0.214,0.0,4.4,0.0,0.0,0.0
+325,Darlow,MUN,GKP,4.5,d,75.0,Unspecified injury - 75% chance of playing,0.16,0.0,3.3,0.0,0.0,0.0
 412,Lammens,MUN,GKP,4.8,a,,,2.88,1.0,86.0,1.7,1.7,2.1
 413,Bayindir,MUN,GKP,4.5,u,0.0,Has joined Celta Vigo on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 414,Heaton,MUN,GKP,4.0,a,100.0,,0.214,0.0,4.4,0.0,0.0,0.0
@@ -514,7 +514,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 418,Maguire,MUN,DEF,4.6,d,75.0,Back injury - 75% chance of playing,1.881,0.735,63.5,0.0,0.0,1.6
 419,Martinez,MUN,DEF,4.8,a,100.0,,1.955,0.679,62.8,-0.3,-0.3,1.286
 420,Yoro,MUN,DEF,4.8,a,,,1.961,0.496,47.0,1.3,1.3,2.6
-421,Heaven,MUN,DEF,4.3,a,100.0,,0.826,0.22,23.3,0.0,0.0,1.0
+421,Heaven,MUN,DEF,4.3,d,75.0,Unspecified injury - 75% chance of playing,0.62,0.165,17.5,0.0,0.0,1.0
 422,Mazraoui,MUN,DEF,4.3,a,100.0,,0.985,0.223,23.6,1.0,1.0,4.5
 423,Shaw,MUN,DEF,4.2,i,0.0,Unspecified injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,2.4
 424,Amass,MUN,DEF,3.9,a,,,0.234,0.0,4.4,0.0,0.0,0.0
@@ -600,9 +600,9 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 581,Diomande,NFO,DEF,5.3,a,,,1.597,0.392,38.2,0.0,0.0,2.5
 590,Benda,NFO,GKP,4.5,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 112,Van Hecke,TOT,DEF,5.1,a,100.0,,5.577,1.0,86.0,8.7,8.7,5.7
-147,Tosin,TOT,DEF,4.3,a,100.0,,0.706,0.093,12.4,0.0,0.0,3.0
+147,Tosin,TOT,DEF,4.3,i,0.0,Calf injury - Expected back 29 Nov,0.0,0.0,0.0,0.0,0.0,3.0
 401,Marmoush,TOT,FWD,7.0,a,100.0,,3.232,0.77,70.6,2.0,2.0,3.0
-403,Sávio,TOT,MID,6.4,i,0.0,Muscular injury - Expected back 21 Nov,0.0,0.0,0.0,0.0,0.0,2.5
+403,Sávio,TOT,MID,6.4,a,100.0,,1.945,0.387,37.7,0.0,0.0,2.5
 455,Tonali,TOT,MID,5.3,a,100.0,,3.939,0.99,85.3,3.0,3.0,3.4
 494,Vicario,TOT,GKP,4.5,u,0.0,Has joined Juventus on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 495,Austin,TOT,GKP,4.0,a,,,0.214,0.0,4.4,0.0,0.0,0.0
@@ -622,13 +622,13 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 511,Souza,TOT,DEF,4.0,u,0.0,Has joined FC Porto on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 512,Kudus,TOT,MID,6.6,a,100.0,,2.828,0.537,50.6,4.0,4.0,5.6
 513,Xavi,TOT,MID,5.9,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
-514,Tel,TOT,MID,5.6,d,75.0,Ankle injury - 75% chance of playing,1.976,0.429,40.2,3.8,5.0,4.0
+514,Tel,TOT,MID,5.6,i,0.0,Ankle injury - Expected back 6 Dec,0.0,0.0,0.0,0.0,5.0,4.0
 515,Maddison,TOT,MID,6.2,a,100.0,,1.316,0.206,22.1,0.3,0.3,7.0
 516,Bentancur,TOT,MID,5.4,a,100.0,,2.439,0.42,40.6,0.3,0.3,3.5
 517,Odobert,TOT,MID,5.5,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
 518,P.M.Sarr,TOT,MID,4.9,u,0.0,Has joined Juventus on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 519,Gallagher,TOT,MID,5.3,a,,,2.198,0.32,32.0,0.7,0.7,5.0
-520,Bergvall,TOT,MID,5.3,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,3.0
+520,Bergvall,TOT,MID,5.3,a,100.0,,1.195,0.184,20.2,0.0,0.0,3.0
 521,Kulusevski,TOT,MID,6.5,a,100.0,,0.396,0.019,6.0,1.0,1.0,0.0
 522,Gray,TOT,MID,4.9,a,,,2.974,0.796,72.9,3.3,3.3,3.0
 523,Moore,TOT,MID,5.0,u,0.0,Has joined FC Köln on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,3.0
