@@ -1,20 +1,20 @@
 # Transfer plan for team 7632746
 
-Planned 2026-11-20T21:14:54Z for GW11–GW16, from the FPL Planner model's projections. Bank £4.8m, 4 free transfer(s).
+Planned 2026-11-21T18:03:56Z for GW12–GW17, from the FPL Planner model's projections. Bank £0.0m, 3 free transfer(s).
 
 | GW | Move | Hits | Captain | Lineup xP |
 |---|---|---|---|---|
-| 11 | Mykolenko, Konsa, Palmer, Kusi-Asare → Gabriel, Van Hecke, E.Le Fée, Barry | 0 | Haaland | 62.22 |
-| 12 | Raya → Trafford | 0 | De Cuyper | 62.65 |
-| 13 | Diop → Silva | 0 | Haaland | 61.39 |
-| 14 | Roll the transfer | 0 | Tavernier | 64.02 |
-| 15 | Roll the transfer | 0 | Haaland | 61.88 |
-| 16 | Roll the transfer | 0 | Haaland | 66.36 |
+| 12 | Raya, Calafiori, Kusi-Asare → Trafford, Hill, Barry | 0 | De Cuyper | 62.81 |
+| 13 | Palmer → Rudoni | 0 | Haaland | 61.12 |
+| 14 | Roll the transfer | 0 | Tavernier | 63.97 |
+| 15 | Dewsbury-Hall → Ødegaard | 0 | Haaland | 62.39 |
+| 16 | Roll the transfer | 0 | Tavernier | 66.91 |
+| 17 | Roll the transfer | 0 | Barry | 62.09 |
 
-## GW11 team
+## GW12 team
 
-**Starting XI:** Raya (4.18), Van Hecke (5.58), Gabriel (5.41), De Cuyper (5.08), Muharemović (4.55), Tavernier (5.53), Groß (4.92), E.Le Fée (4.91), Haaland (6.04), Barry (5.24), Evanilson (4.74)
+**Starting XI:** Trafford (4.63), De Cuyper (5.81), Muharemović (5.24), Hill (4.97), Gabriel (4.97), Tavernier (5.64), Groß (5.5), Mbeumo (5.11), Barry (5.45), Evanilson (4.89), Haaland (4.78)
 
-**Bench:** Bentley (0.21), Mbeumo (4.52), Dewsbury-Hall (4.23), Diop (3.03)
+**Bench:** Bentley (0.21), Dewsbury-Hall (4.4), Palmer (3.63), Diop (3.22)
 
 Solver: [FPL-Optimization-Tools](https://github.com/sertalpbilal/FPL-Optimization-Tools) at `ec65f5e`.
