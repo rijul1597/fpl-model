@@ -1,5 +1,5 @@
 id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep_next,form,pts_per_start
-1,Raya,ARS,GKP,6.2,a,,,4.177,1.0,86.0,6.0,6.0,6.0
+1,Raya,ARS,GKP,6.3,a,,,4.177,1.0,86.0,6.0,6.0,6.0
 2,Arrizabalaga,ARS,GKP,4.9,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 3,Meslier,ARS,GKP,4.9,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 4,Gabriel,ARS,DEF,8.1,a,,,5.413,1.0,86.0,10.3,10.3,6.6
@@ -18,7 +18,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 17,Merino,ARS,MID,5.7,a,,,1.015,0.15,17.3,1.7,1.7,11.0
 18,Martinelli,ARS,MID,6.3,u,0.0,Has joined Al Hilal permanently,0.0,0.0,0.0,0.0,0.0,0.0
 19,Zubimendi,ARS,MID,5.2,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,0.0,0.7,0.0
-20,Dowman,ARS,MID,5.3,s,0.0,Suspended until 29 Nov,0.0,0.0,0.0,0.0,0.3,0.0
+20,Dowman,ARS,MID,5.2,s,0.0,Suspended until 29 Nov,0.0,0.0,0.0,0.0,0.3,0.0
 22,Nwaneri,ARS,MID,5.4,u,0.0,Has joined Borussia Dortmund on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 23,Fábio Vieira,ARS,MID,5.5,u,0.0,Has joined Hamburger SV permanently,0.0,0.0,0.0,0.0,0.0,0.0
 24,Nelson,ARS,MID,5.5,u,0.0,has departed the club as a free agent.,0.0,0.0,0.0,0.0,0.0,0.0
@@ -41,7 +41,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 41,Buendía,AVL,MID,5.9,a,,,3.427,0.679,62.8,0.3,0.3,4.143
 44,Bailey,AVL,MID,5.4,u,0.0,Has joined Olympiakos permanently,0.0,0.0,0.0,0.0,0.0,0.0
 45,McGinn,AVL,MID,5.5,a,,,4.509,0.891,79.0,5.3,5.3,4.889
-46,Barkley,AVL,MID,5.0,a,100.0,,1.764,0.411,39.7,1.0,1.0,3.75
+46,Barkley,AVL,MID,4.9,a,100.0,,1.764,0.411,39.7,1.0,1.0,3.75
 47,Kamara,AVL,MID,5.0,a,100.0,,3.459,0.992,85.5,3.3,3.3,3.4
 48,Onana,AVL,MID,4.9,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
 49,Iling Jr,AVL,MID,5.0,u,0.0,Has joined Bolton Wanderers on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
@@ -223,7 +223,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 192,Andrews,COV,MID,4.5,u,0.0,Has joined Oxford United on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 193,Wright,COV,FWD,5.3,i,0.0,Lack of match fitness - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
 194,Thomas-Asante,COV,FWD,5.0,a,,,2.347,0.52,49.1,1.3,1.3,4.6
-195,Simms,COV,FWD,4.9,a,,,0.918,0.112,14.0,0.0,0.0,10.0
+195,Simms,COV,FWD,4.8,a,,,0.918,0.112,14.0,0.0,0.0,10.0
 196,Markelo,COV,FWD,5.0,u,0.0,Has joined Shabab Al-Ahli Dubai permanently,0.0,0.0,0.0,0.0,0.0,0.0
 197,Bassette,COV,FWD,4.5,u,0.0,Has joined KVC Westerlo on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 492,Awoniyi,COV,FWD,5.4,a,100.0,,2.845,0.496,47.1,4.0,4.0,3.2
@@ -309,7 +309,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 264,Bobb,FUL,MID,5.5,a,,,3.604,0.924,81.1,5.3,5.3,3.5
 265,Berge,FUL,MID,4.8,a,,,2.577,0.807,73.7,2.3,2.3,3.125
 266,Cairney,FUL,MID,4.9,a,100.0,,0.341,0.016,5.8,0.3,0.3,0.0
-268,King,FUL,MID,5.5,a,100.0,,3.537,0.958,83.3,3.7,3.7,3.9
+268,King,FUL,MID,5.4,a,100.0,,3.537,0.958,83.3,3.7,3.7,3.9
 269,Sessegnon,FUL,DEF,4.3,a,100.0,,0.645,0.133,15.9,0.3,0.3,9.0
 270,Reed,FUL,MID,4.3,a,,,0.264,0.0,4.4,0.0,0.0,0.0
 271,Muniz,FUL,FWD,5.3,a,,,0.522,0.043,8.1,3.0,3.0,0.0
@@ -354,7 +354,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 556,Targett,HUL,DEF,3.9,i,0.0,Ankle injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
 563,Morita,HUL,MID,4.9,i,0.0,Groin injury - Unknown return date,0.0,0.0,0.0,0.0,0.7,5.0
 572,Tzolakis,HUL,GKP,4.7,a,,,4.007,1.0,86.0,3.3,3.3,4.9
-574,Hjertø-Dahl,HUL,MID,4.8,a,,,0.291,0.004,4.7,0.0,0.0,0.0
+574,Hjertø-Dahl,HUL,MID,4.7,a,,,0.291,0.004,4.7,0.0,0.0,0.0
 576,Stroud,HUL,MID,4.9,a,,,2.342,0.641,59.6,1.7,1.7,2.286
 585,Herrington,HUL,DEF,3.9,a,,,1.501,0.337,33.4,1.7,1.7,3.333
 586,Mendy,HUL,DEF,4.1,a,100.0,,3.374,0.651,60.4,2.0,2.0,4.857
@@ -448,7 +448,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 363,Leoni,LIV,DEF,3.9,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
 364,Tsimikas,LIV,DEF,4.9,a,,,0.59,0.093,12.4,0.7,0.7,4.0
 365,Ramsay,LIV,DEF,4.0,u,0.0,Has joined St Mirren on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
-366,Wirtz,LIV,MID,7.2,a,100.0,,4.152,0.952,82.9,7.0,7.0,4.6
+366,Wirtz,LIV,MID,7.3,a,100.0,,4.152,0.952,82.9,7.0,7.0,4.6
 367,Gakpo,LIV,MID,7.1,a,100.0,,3.636,0.687,63.5,2.7,2.7,5.714
 368,Szoboszlai,LIV,MID,6.7,a,100.0,,3.774,0.674,62.3,2.7,2.7,4.143
 369,Ngumoha,LIV,MID,5.7,a,,,0.835,0.15,17.3,1.0,1.0,9.0
@@ -473,7 +473,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 384,Donnarumma,MCI,GKP,5.4,a,,,3.433,1.0,86.0,1.3,1.3,3.3
 386,Bettinelli,MCI,GKP,4.4,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 387,O'Reilly,MCI,DEF,6.2,a,100.0,,2.209,0.4,38.8,0.7,0.7,3.75
-388,Guéhi,MCI,DEF,6.0,d,75.0,Hip injury - 75% chance of playing,2.877,0.645,57.8,0.0,0.0,4.111
+388,Guéhi,MCI,DEF,5.9,d,75.0,Hip injury - 75% chance of playing,2.877,0.645,57.8,0.0,0.0,4.111
 389,Matheus N.,MCI,DEF,5.9,d,50.0,Unspecified injury - 50% chance of playing,1.124,0.264,24.9,0.5,1.0,4.4
 390,Rúben,MCI,DEF,5.5,a,,,3.532,1.0,86.0,1.3,1.3,2.8
 391,Gvardiol,MCI,DEF,5.6,a,100.0,,3.852,0.791,72.4,1.0,1.0,5.5
@@ -520,7 +520,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 424,Amass,MUN,DEF,3.9,a,,,0.234,0.0,4.4,0.0,0.0,0.0
 425,Fredricson,MUN,DEF,4.0,u,0.0,Has joined Lausanne-Sport permanently,0.0,0.0,0.0,0.0,0.0,0.0
 426,B.Fernandes,MUN,MID,11.6,a,,,4.203,0.9,79.6,4.0,4.0,5.0
-427,Mbeumo,MUN,MID,7.9,a,,,4.521,0.996,85.8,1.7,1.7,4.6
+427,Mbeumo,MUN,MID,7.8,a,,,4.521,0.996,85.8,1.7,1.7,4.6
 428,Cunha,MUN,MID,7.8,a,,,3.453,0.792,72.6,2.7,2.7,5.625
 429,Rashford,MUN,MID,6.8,i,0.0,Hip injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,2.75
 430,Mount,MUN,MID,5.4,a,100.0,,0.886,0.133,15.8,1.3,1.3,6.0
@@ -531,7 +531,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 435,Lacey,MUN,MID,4.9,a,,,0.331,0.02,6.2,0.7,0.7,0.0
 436,Collyer,MUN,MID,5.0,u,0.0,Has joined West Brom permanently,0.0,0.0,0.0,0.0,0.0,0.0
 437,Bendito Mantato,MUN,MID,4.4,a,,,0.266,0.0,4.4,0.0,0.0,0.0
-438,Fletcher,MUN,MID,4.4,a,,,0.266,0.0,4.4,0.0,0.0,0.0
+438,Fletcher,MUN,MID,4.3,a,,,0.266,0.0,4.4,0.0,0.0,0.0
 439,Šeško,MUN,FWD,6.9,i,0.0,Shin injury - Unknown return date,0.0,0.0,0.0,0.0,0.0,0.0
 440,Zirkzee,MUN,FWD,5.3,a,,,0.474,0.04,7.8,2.0,2.0,0.0
 441,Obi,MUN,FWD,4.5,u,0.0,Has joined Willem II on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
@@ -607,7 +607,7 @@ id,web_name,team,pos,price,status,chance,news,app_model,app_p60,app_xmins,fpl_ep
 494,Vicario,TOT,GKP,4.5,u,0.0,Has joined Juventus on loan for the rest of the season,0.0,0.0,0.0,0.0,0.0,0.0
 495,Austin,TOT,GKP,4.0,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 496,Kinsky,TOT,GKP,4.4,a,,,3.577,1.0,86.0,5.7,5.7,4.0
-497,Dubravka,TOT,GKP,4.0,a,,,0.214,0.0,4.4,0.0,0.0,0.0
+497,Dubravka,TOT,GKP,3.9,a,,,0.214,0.0,4.4,0.0,0.0,0.0
 498,Senesi,TOT,DEF,5.7,a,,,1.147,0.199,21.5,0.0,0.0,2.5
 499,Pedro Porro,TOT,DEF,5.3,a,100.0,,1.992,0.388,37.7,2.3,2.3,4.0
 500,Romero,TOT,DEF,5.0,u,0.0,Has joined Atletico Madrid permanently,0.0,0.0,0.0,0.0,0.0,0.0
