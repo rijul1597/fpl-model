@@ -4,10 +4,8 @@
   "model_version": "cc2b106c871f",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "log": [
-    "GW12 deadline in 144.4h; snapshots start 36h before it.",
-    "Planned team 7632746: GW12 Raya, Calafiori, Kusi-Asare -> Trafford, Hill, Barry; captain De Cuyper.",
-    "Planned team 895045: GW12 Palmer -> Mbeumo; captain De Cuyper."
+    "GW12 deadline in 139.1h; snapshots start 36h before it."
   ],
   "errors": [],
-  "last_change": "2026-11-21T18:03:39Z"
+  "last_change": "2026-11-21T23:26:27Z"
 }
