@@ -3,7 +3,7 @@
   "team_id": 7632746,
   "next_gw": 12,
   "horizon": 6,
-  "solved_at": "2026-11-21T18:03:56Z",
+  "solved_at": "2026-11-22T07:01:58Z",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "settings": {
     "decay_base": 0.9,
@@ -19,7 +19,7 @@
   },
   "bank_now": 0.0,
   "free_transfers_now": 3,
-  "total_xp": 379.28,
+  "total_xp": 378.15,
   "weeks": [
     {
       "gw": 12,
@@ -30,14 +30,14 @@
           "name": "Raya",
           "pos": "GKP",
           "team": "Arsenal",
-          "xp": 3.93
+          "xp": 2.8
         },
         {
-          "id": 8,
-          "name": "Calafiori",
-          "pos": "DEF",
-          "team": "Arsenal",
-          "xp": 4.17
+          "id": 154,
+          "name": "Palmer",
+          "pos": "MID",
+          "team": "Chelsea",
+          "xp": 3.63
         },
         {
           "id": 272,
@@ -56,28 +56,28 @@
           "xp": 4.63
         },
         {
-          "id": 60,
-          "name": "Hill",
-          "pos": "DEF",
-          "team": "Bournemouth",
-          "xp": 4.97
+          "id": 15,
+          "name": "\u00d8degaard",
+          "pos": "MID",
+          "team": "Arsenal",
+          "xp": 4.81
         },
         {
           "id": 249,
           "name": "Barry",
           "pos": "FWD",
           "team": "Everton",
-          "xp": 5.45
+          "xp": 5.43
         }
       ],
       "hits": 0,
-      "bank": 0.0,
+      "bank": 2.6,
       "free_transfers": 3,
       "captain": "De Cuyper",
       "captain_id": 115,
       "vice_captain": "Tavernier",
       "vice_captain_id": 68,
-      "lineup_xp": 62.81,
+      "lineup_xp": 62.43,
       "lineup": [
         {
           "id": 385,
@@ -91,70 +91,70 @@
           "name": "De Cuyper",
           "pos": "DEF",
           "team": "Brighton",
-          "xp": 5.81
+          "xp": 5.74
         },
         {
           "id": 334,
           "name": "Muharemovi\u0107",
           "pos": "DEF",
           "team": "Leeds",
-          "xp": 5.24
-        },
-        {
-          "id": 60,
-          "name": "Hill",
-          "pos": "DEF",
-          "team": "Bournemouth",
-          "xp": 4.97
+          "xp": 5.23
         },
         {
           "id": 4,
           "name": "Gabriel",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 4.97
+          "xp": 4.7
         },
         {
           "id": 68,
           "name": "Tavernier",
           "pos": "MID",
           "team": "Bournemouth",
-          "xp": 5.64
+          "xp": 5.63
         },
         {
           "id": 124,
           "name": "Gro\u00df",
           "pos": "MID",
           "team": "Brighton",
-          "xp": 5.5
+          "xp": 5.55
         },
         {
           "id": 427,
           "name": "Mbeumo",
           "pos": "MID",
           "team": "Man Utd",
-          "xp": 5.11
+          "xp": 5.1
+        },
+        {
+          "id": 15,
+          "name": "\u00d8degaard",
+          "pos": "MID",
+          "team": "Arsenal",
+          "xp": 4.81
         },
         {
           "id": 249,
           "name": "Barry",
           "pos": "FWD",
           "team": "Everton",
-          "xp": 5.45
-        },
-        {
-          "id": 79,
-          "name": "Evanilson",
-          "pos": "FWD",
-          "team": "Bournemouth",
-          "xp": 4.89
+          "xp": 5.43
         },
         {
           "id": 411,
           "name": "Haaland",
           "pos": "FWD",
           "team": "Man City",
-          "xp": 4.78
+          "xp": 4.96
+        },
+        {
+          "id": 79,
+          "name": "Evanilson",
+          "pos": "FWD",
+          "team": "Bournemouth",
+          "xp": 4.91
         }
       ],
       "bench": [
@@ -173,18 +173,18 @@
           "xp": 4.4
         },
         {
-          "id": 154,
-          "name": "Palmer",
-          "pos": "MID",
-          "team": "Chelsea",
-          "xp": 3.63
+          "id": 8,
+          "name": "Calafiori",
+          "pos": "DEF",
+          "team": "Arsenal",
+          "xp": 4.02
         },
         {
           "id": 259,
           "name": "Diop",
           "pos": "DEF",
           "team": "Ipswich Town",
-          "xp": 3.22
+          "xp": 3.24
         }
       ]
     },
@@ -193,30 +193,30 @@
       "chip": null,
       "transfers_out": [
         {
-          "id": 154,
-          "name": "Palmer",
-          "pos": "MID",
-          "team": "Chelsea",
-          "xp": 4.64
+          "id": 8,
+          "name": "Calafiori",
+          "pos": "DEF",
+          "team": "Arsenal",
+          "xp": 4.08
         }
       ],
       "transfers_in": [
         {
-          "id": 183,
-          "name": "Rudoni",
-          "pos": "MID",
-          "team": "Coventry City",
-          "xp": 5.04
+          "id": 60,
+          "name": "Hill",
+          "pos": "DEF",
+          "team": "Bournemouth",
+          "xp": 5.08
         }
       ],
       "hits": 0,
-      "bank": 4.8,
+      "bank": 2.9,
       "free_transfers": 1,
       "captain": "Haaland",
       "captain_id": 411,
       "vice_captain": "Tavernier",
       "vice_captain_id": 68,
-      "lineup_xp": 61.12,
+      "lineup_xp": 60.52,
       "lineup": [
         {
           "id": 385,
@@ -230,49 +230,49 @@
           "name": "Hill",
           "pos": "DEF",
           "team": "Bournemouth",
-          "xp": 5.05
+          "xp": 5.08
         },
         {
           "id": 4,
           "name": "Gabriel",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 5.04
+          "xp": 4.78
         },
         {
           "id": 115,
           "name": "De Cuyper",
           "pos": "DEF",
           "team": "Brighton",
-          "xp": 4.11
+          "xp": 4.12
         },
         {
           "id": 68,
           "name": "Tavernier",
           "pos": "MID",
           "team": "Bournemouth",
-          "xp": 5.85
-        },
-        {
-          "id": 183,
-          "name": "Rudoni",
-          "pos": "MID",
-          "team": "Coventry City",
-          "xp": 5.04
+          "xp": 5.84
         },
         {
           "id": 427,
           "name": "Mbeumo",
           "pos": "MID",
           "team": "Man Utd",
-          "xp": 4.91
+          "xp": 4.95
+        },
+        {
+          "id": 15,
+          "name": "\u00d8degaard",
+          "pos": "MID",
+          "team": "Arsenal",
+          "xp": 4.63
         },
         {
           "id": 124,
           "name": "Gro\u00df",
           "pos": "MID",
           "team": "Brighton",
-          "xp": 4.62
+          "xp": 4.61
         },
         {
           "id": 411,
@@ -286,14 +286,14 @@
           "name": "Barry",
           "pos": "FWD",
           "team": "Everton",
-          "xp": 5.59
+          "xp": 5.57
         },
         {
           "id": 79,
           "name": "Evanilson",
           "pos": "FWD",
           "team": "Bournemouth",
-          "xp": 5.09
+          "xp": 5.11
         }
       ],
       "bench": [
@@ -316,44 +316,60 @@
           "name": "Muharemovi\u0107",
           "pos": "DEF",
           "team": "Leeds",
-          "xp": 3.83
+          "xp": 3.85
         },
         {
           "id": 259,
           "name": "Diop",
           "pos": "DEF",
           "team": "Ipswich Town",
-          "xp": 3.09
+          "xp": 3.1
         }
       ]
     },
     {
       "gw": 14,
       "chip": null,
-      "transfers_out": [],
-      "transfers_in": [],
+      "transfers_out": [
+        {
+          "id": 236,
+          "name": "Dewsbury-Hall",
+          "pos": "MID",
+          "team": "Everton",
+          "xp": 4.56
+        }
+      ],
+      "transfers_in": [
+        {
+          "id": 542,
+          "name": "E.Le F\u00e9e",
+          "pos": "MID",
+          "team": "Sunderland",
+          "xp": 4.7
+        }
+      ],
       "hits": 0,
-      "bank": 4.8,
+      "bank": 3.8,
       "free_transfers": 1,
       "captain": "Tavernier",
       "captain_id": 68,
       "vice_captain": "Hill",
       "vice_captain_id": 60,
-      "lineup_xp": 63.97,
+      "lineup_xp": 63.82,
       "lineup": [
         {
           "id": 385,
           "name": "Trafford",
           "pos": "GKP",
           "team": "Leeds",
-          "xp": 4.51
+          "xp": 4.52
         },
         {
           "id": 60,
           "name": "Hill",
           "pos": "DEF",
           "team": "Bournemouth",
-          "xp": 5.96
+          "xp": 5.98
         },
         {
           "id": 334,
@@ -367,21 +383,28 @@
           "name": "Gabriel",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 4.94
+          "xp": 4.69
         },
         {
           "id": 68,
           "name": "Tavernier",
           "pos": "MID",
           "team": "Bournemouth",
-          "xp": 6.12
+          "xp": 6.11
         },
         {
           "id": 427,
           "name": "Mbeumo",
           "pos": "MID",
           "team": "Man Utd",
-          "xp": 5.41
+          "xp": 5.37
+        },
+        {
+          "id": 542,
+          "name": "E.Le F\u00e9e",
+          "pos": "MID",
+          "team": "Sunderland",
+          "xp": 4.7
         },
         {
           "id": 124,
@@ -391,32 +414,25 @@
           "xp": 4.69
         },
         {
-          "id": 236,
-          "name": "Dewsbury-Hall",
-          "pos": "MID",
-          "team": "Everton",
-          "xp": 4.56
-        },
-        {
           "id": 249,
           "name": "Barry",
           "pos": "FWD",
           "team": "Everton",
-          "xp": 5.79
+          "xp": 5.76
         },
         {
           "id": 411,
           "name": "Haaland",
           "pos": "FWD",
           "team": "Man City",
-          "xp": 5.56
+          "xp": 5.55
         },
         {
           "id": 79,
           "name": "Evanilson",
           "pos": "FWD",
           "team": "Bournemouth",
-          "xp": 5.19
+          "xp": 5.21
         }
       ],
       "bench": [
@@ -428,85 +444,69 @@
           "xp": 0.21
         },
         {
+          "id": 15,
+          "name": "\u00d8degaard",
+          "pos": "MID",
+          "team": "Arsenal",
+          "xp": 4.46
+        },
+        {
           "id": 115,
           "name": "De Cuyper",
           "pos": "DEF",
           "team": "Brighton",
-          "xp": 4.35
-        },
-        {
-          "id": 183,
-          "name": "Rudoni",
-          "pos": "MID",
-          "team": "Coventry City",
-          "xp": 4.26
+          "xp": 4.37
         },
         {
           "id": 259,
           "name": "Diop",
           "pos": "DEF",
           "team": "Ipswich Town",
-          "xp": 2.64
+          "xp": 2.65
         }
       ]
     },
     {
       "gw": 15,
       "chip": null,
-      "transfers_out": [
-        {
-          "id": 236,
-          "name": "Dewsbury-Hall",
-          "pos": "MID",
-          "team": "Everton",
-          "xp": 4.1
-        }
-      ],
-      "transfers_in": [
-        {
-          "id": 15,
-          "name": "\u00d8degaard",
-          "pos": "MID",
-          "team": "Arsenal",
-          "xp": 4.84
-        }
-      ],
+      "transfers_out": [],
+      "transfers_in": [],
       "hits": 0,
-      "bank": 4.7,
-      "free_transfers": 2,
+      "bank": 3.8,
+      "free_transfers": 1,
       "captain": "Haaland",
       "captain_id": 411,
       "vice_captain": "Mbeumo",
       "vice_captain_id": 427,
-      "lineup_xp": 62.39,
+      "lineup_xp": 62.17,
       "lineup": [
         {
           "id": 385,
           "name": "Trafford",
           "pos": "GKP",
           "team": "Leeds",
-          "xp": 4.27
+          "xp": 4.28
         },
         {
           "id": 115,
           "name": "De Cuyper",
           "pos": "DEF",
           "team": "Brighton",
-          "xp": 5.38
+          "xp": 5.39
         },
         {
           "id": 4,
           "name": "Gabriel",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 5.04
+          "xp": 4.78
         },
         {
           "id": 60,
           "name": "Hill",
           "pos": "DEF",
           "team": "Bournemouth",
-          "xp": 4.69
+          "xp": 4.68
         },
         {
           "id": 427,
@@ -527,35 +527,35 @@
           "name": "Tavernier",
           "pos": "MID",
           "team": "Bournemouth",
-          "xp": 4.89
+          "xp": 5.03
         },
         {
           "id": 15,
           "name": "\u00d8degaard",
           "pos": "MID",
           "team": "Arsenal",
-          "xp": 4.84
+          "xp": 4.81
         },
         {
-          "id": 183,
-          "name": "Rudoni",
+          "id": 542,
+          "name": "E.Le F\u00e9e",
           "pos": "MID",
-          "team": "Coventry City",
-          "xp": 4.78
+          "team": "Sunderland",
+          "xp": 4.71
         },
         {
           "id": 411,
           "name": "Haaland",
           "pos": "FWD",
           "team": "Man City",
-          "xp": 6.44
+          "xp": 6.45
         },
         {
           "id": 249,
           "name": "Barry",
           "pos": "FWD",
           "team": "Everton",
-          "xp": 5.02
+          "xp": 5.01
         }
       ],
       "bench": [
@@ -567,25 +567,25 @@
           "xp": 0.21
         },
         {
-          "id": 334,
-          "name": "Muharemovi\u0107",
-          "pos": "DEF",
-          "team": "Leeds",
-          "xp": 4.32
-        },
-        {
           "id": 79,
           "name": "Evanilson",
           "pos": "FWD",
           "team": "Bournemouth",
-          "xp": 4.19
+          "xp": 4.35
+        },
+        {
+          "id": 334,
+          "name": "Muharemovi\u0107",
+          "pos": "DEF",
+          "team": "Leeds",
+          "xp": 4.33
         },
         {
           "id": 259,
           "name": "Diop",
           "pos": "DEF",
           "team": "Ipswich Town",
-          "xp": 3.52
+          "xp": 3.39
         }
       ]
     },
@@ -595,20 +595,20 @@
       "transfers_out": [],
       "transfers_in": [],
       "hits": 0,
-      "bank": 4.7,
+      "bank": 3.8,
       "free_transfers": 2,
       "captain": "Tavernier",
       "captain_id": 68,
       "vice_captain": "Haaland",
       "vice_captain_id": 411,
-      "lineup_xp": 66.91,
+      "lineup_xp": 67.35,
       "lineup": [
         {
           "id": 385,
           "name": "Trafford",
           "pos": "GKP",
           "team": "Leeds",
-          "xp": 4.45
+          "xp": 4.46
         },
         {
           "id": 115,
@@ -622,49 +622,49 @@
           "name": "Hill",
           "pos": "DEF",
           "team": "Bournemouth",
-          "xp": 5.82
+          "xp": 5.83
         },
         {
           "id": 4,
           "name": "Gabriel",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 5.42
-        },
-        {
-          "id": 334,
-          "name": "Muharemovi\u0107",
-          "pos": "DEF",
-          "team": "Leeds",
-          "xp": 4.87
+          "xp": 5.15
         },
         {
           "id": 68,
           "name": "Tavernier",
           "pos": "MID",
           "team": "Bournemouth",
-          "xp": 6.35
+          "xp": 6.32
         },
         {
           "id": 124,
           "name": "Gro\u00df",
           "pos": "MID",
           "team": "Brighton",
-          "xp": 5.89
+          "xp": 5.87
+        },
+        {
+          "id": 542,
+          "name": "E.Le F\u00e9e",
+          "pos": "MID",
+          "team": "Sunderland",
+          "xp": 5.7
         },
         {
           "id": 15,
           "name": "\u00d8degaard",
           "pos": "MID",
           "team": "Arsenal",
-          "xp": 5.25
+          "xp": 5.24
         },
         {
           "id": 411,
           "name": "Haaland",
           "pos": "FWD",
           "team": "Man City",
-          "xp": 6.05
+          "xp": 6.03
         },
         {
           "id": 79,
@@ -678,7 +678,7 @@
           "name": "Barry",
           "pos": "FWD",
           "team": "Everton",
-          "xp": 5.05
+          "xp": 5.04
         }
       ],
       "bench": [
@@ -690,25 +690,25 @@
           "xp": 0.21
         },
         {
+          "id": 334,
+          "name": "Muharemovi\u0107",
+          "pos": "DEF",
+          "team": "Leeds",
+          "xp": 4.88
+        },
+        {
           "id": 427,
           "name": "Mbeumo",
           "pos": "MID",
           "team": "Man Utd",
-          "xp": 3.97
-        },
-        {
-          "id": 183,
-          "name": "Rudoni",
-          "pos": "MID",
-          "team": "Coventry City",
-          "xp": 3.94
+          "xp": 4.11
         },
         {
           "id": 259,
           "name": "Diop",
           "pos": "DEF",
           "team": "Ipswich Town",
-          "xp": 2.34
+          "xp": 2.37
         }
       ]
     },
@@ -718,90 +718,90 @@
       "transfers_out": [],
       "transfers_in": [],
       "hits": 0,
-      "bank": 4.7,
+      "bank": 3.8,
       "free_transfers": 3,
       "captain": "Barry",
       "captain_id": 249,
       "vice_captain": "Haaland",
       "vice_captain_id": 411,
-      "lineup_xp": 62.09,
+      "lineup_xp": 61.86,
       "lineup": [
         {
           "id": 385,
           "name": "Trafford",
           "pos": "GKP",
           "team": "Leeds",
-          "xp": 4.3
+          "xp": 4.31
         },
         {
           "id": 4,
           "name": "Gabriel",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 5.25
+          "xp": 4.99
         },
         {
           "id": 60,
           "name": "Hill",
           "pos": "DEF",
           "team": "Bournemouth",
-          "xp": 4.92
+          "xp": 4.95
         },
         {
           "id": 115,
           "name": "De Cuyper",
           "pos": "DEF",
           "team": "Brighton",
-          "xp": 4.69
+          "xp": 4.7
         },
         {
           "id": 68,
           "name": "Tavernier",
           "pos": "MID",
           "team": "Bournemouth",
-          "xp": 5.33
+          "xp": 5.34
         },
         {
           "id": 15,
           "name": "\u00d8degaard",
           "pos": "MID",
           "team": "Arsenal",
-          "xp": 5.26
+          "xp": 5.25
         },
         {
           "id": 427,
           "name": "Mbeumo",
           "pos": "MID",
           "team": "Man Utd",
-          "xp": 4.97
+          "xp": 4.96
         },
         {
           "id": 124,
           "name": "Gro\u00df",
           "pos": "MID",
           "team": "Brighton",
-          "xp": 4.87
-        },
-        {
-          "id": 183,
-          "name": "Rudoni",
-          "pos": "MID",
-          "team": "Coventry City",
-          "xp": 4.67
+          "xp": 4.86
         },
         {
           "id": 249,
           "name": "Barry",
           "pos": "FWD",
           "team": "Everton",
-          "xp": 5.99
+          "xp": 5.98
         },
         {
           "id": 411,
           "name": "Haaland",
           "pos": "FWD",
           "team": "Man City",
-          "xp": 5.85
+          "xp": 5.93
+        },
+        {
+          "id": 79,
+          "name": "Evanilson",
+          "pos": "FWD",
+          "team": "Bournemouth",
+          "xp": 4.62
         }
       ],
       "bench": [
@@ -813,25 +813,25 @@
           "xp": 0.21
         },
         {
-          "id": 79,
-          "name": "Evanilson",
-          "pos": "FWD",
-          "team": "Bournemouth",
-          "xp": 4.59
-        },
-        {
           "id": 334,
           "name": "Muharemovi\u0107",
           "pos": "DEF",
           "team": "Leeds",
-          "xp": 4.5
+          "xp": 4.51
+        },
+        {
+          "id": 542,
+          "name": "E.Le F\u00e9e",
+          "pos": "MID",
+          "team": "Sunderland",
+          "xp": 4.37
         },
         {
           "id": 259,
           "name": "Diop",
           "pos": "DEF",
           "team": "Ipswich Town",
-          "xp": 3.17
+          "xp": 3.2
         }
       ]
     }
