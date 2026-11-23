@@ -3,7 +3,7 @@
   "team_id": 895045,
   "next_gw": 12,
   "horizon": 6,
-  "solved_at": "2026-11-22T21:53:30Z",
+  "solved_at": "2026-11-23T13:05:24Z",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "settings": {
     "decay_base": 0.9,
@@ -49,7 +49,7 @@
       "captain_id": 115,
       "vice_captain": "Tavernier",
       "vice_captain_id": 68,
-      "lineup_xp": 60.39,
+      "lineup_xp": 60.4,
       "lineup": [
         {
           "id": 385,
@@ -70,7 +70,7 @@
           "name": "Vuskovic",
           "pos": "DEF",
           "team": "Brighton",
-          "xp": 5.02
+          "xp": 5.01
         },
         {
           "id": 4,
@@ -308,7 +308,7 @@
           "name": "Palmer",
           "pos": "MID",
           "team": "Chelsea",
-          "xp": 3.89
+          "xp": 3.9
         }
       ],
       "transfers_in": [
@@ -383,7 +383,7 @@
           "name": "Rogers",
           "pos": "MID",
           "team": "Chelsea",
-          "xp": 4.26
+          "xp": 4.27
         },
         {
           "id": 249,
@@ -420,7 +420,7 @@
           "name": "Konsa",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 4.22
+          "xp": 4.23
         },
         {
           "id": 504,
@@ -589,7 +589,7 @@
       "captain_id": 68,
       "vice_captain": "Haaland",
       "vice_captain_id": 411,
-      "lineup_xp": 66.52,
+      "lineup_xp": 66.51,
       "lineup": [
         {
           "id": 385,
@@ -682,7 +682,7 @@
           "name": "Konsa",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 4.57
+          "xp": 4.56
         },
         {
           "id": 427,
@@ -726,7 +726,7 @@
           "name": "Gabriel",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 5.04
+          "xp": 5.03
         },
         {
           "id": 60,

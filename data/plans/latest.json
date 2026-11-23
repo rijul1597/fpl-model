@@ -3,7 +3,7 @@
   "team_id": 7632746,
   "next_gw": 12,
   "horizon": 6,
-  "solved_at": "2026-11-22T21:53:27Z",
+  "solved_at": "2026-11-23T13:05:22Z",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "settings": {
     "decay_base": 0.9,
@@ -77,7 +77,7 @@
       "captain_id": 115,
       "vice_captain": "Tavernier",
       "vice_captain_id": 68,
-      "lineup_xp": 61.78,
+      "lineup_xp": 61.79,
       "lineup": [
         {
           "id": 385,
@@ -140,7 +140,7 @@
           "name": "Dewsbury-Hall",
           "pos": "MID",
           "team": "Everton",
-          "xp": 4.37
+          "xp": 4.38
         },
         {
           "id": 249,
@@ -258,7 +258,7 @@
           "name": "Mbeumo",
           "pos": "MID",
           "team": "Man Utd",
-          "xp": 4.84
+          "xp": 4.85
         },
         {
           "id": 154,
@@ -336,7 +336,7 @@
           "name": "Palmer",
           "pos": "MID",
           "team": "Chelsea",
-          "xp": 3.89
+          "xp": 3.9
         }
       ],
       "transfers_in": [
@@ -376,7 +376,7 @@
           "name": "Muharemovi\u0107",
           "pos": "DEF",
           "team": "Leeds",
-          "xp": 5.18
+          "xp": 5.17
         },
         {
           "id": 4,
@@ -494,7 +494,7 @@
       "captain_id": 411,
       "vice_captain": "Isak",
       "vice_captain_id": 379,
-      "lineup_xp": 62.75,
+      "lineup_xp": 62.74,
       "lineup": [
         {
           "id": 385,
@@ -617,7 +617,7 @@
       "captain_id": 68,
       "vice_captain": "Haaland",
       "vice_captain_id": 411,
-      "lineup_xp": 67.24,
+      "lineup_xp": 67.23,
       "lineup": [
         {
           "id": 385,
@@ -754,7 +754,7 @@
           "name": "Gabriel",
           "pos": "DEF",
           "team": "Arsenal",
-          "xp": 5.04
+          "xp": 5.03
         },
         {
           "id": 60,
