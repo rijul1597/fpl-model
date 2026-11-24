@@ -1,0 +1,41 @@
+{
+  "gw": 11,
+  "frozen_at": "2026-11-21T02:26:05Z",
+  "model_version": "cc2b106c871f",
+  "n_players": 672,
+  "n60": 203,
+  "sources": {
+    "app_model": {
+      "mae60": 2.6122,
+      "bias60": -1.1156,
+      "spearman60": 0.0931,
+      "top20_pts": 4.35,
+      "captain_pts": 2.0,
+      "captain_id": 411
+    },
+    "fpl_ep_next": {
+      "mae60": 2.8739,
+      "bias60": -0.8897,
+      "spearman60": 0.0851,
+      "top20_pts": 4.95,
+      "captain_pts": 2.0,
+      "captain_id": 166
+    },
+    "form": {
+      "mae60": 2.8818,
+      "bias60": -0.8729,
+      "spearman60": 0.0793,
+      "top20_pts": 5.1,
+      "captain_pts": 2.0,
+      "captain_id": 166
+    },
+    "pts_per_start": {
+      "mae60": 3.0928,
+      "bias60": 0.1168,
+      "spearman60": 0.001,
+      "top20_pts": 1.45,
+      "captain_pts": 1.0,
+      "captain_id": 123
+    }
+  }
+}
