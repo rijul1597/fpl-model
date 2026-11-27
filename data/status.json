@@ -1,13 +1,13 @@
 {
-  "next_gw": 12,
-  "deadline": "2026-11-27T18:30:00Z",
+  "next_gw": 13,
+  "deadline": "2026-12-01T18:30:00Z",
   "model_version": "cc2b106c871f",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "log": [
-    "Froze GW12 projections, 7.5h before the deadline.",
-    "Planned team 7632746: GW12 Raya, Palmer, Kusi-Asare -> Trafford, \u00d8degaard, Barry; captain De Cuyper.",
-    "Planned team 895045: GW12 Raya -> Trafford; captain De Cuyper."
+    "GW13 deadline in 94.5h; snapshots start 36h before it.",
+    "Planned team 7632746: GW13 Raya, Calafiori -> Trafford, Hill; captain Tavernier.",
+    "Planned team 895045: GW13 Raya -> Trafford; captain Tavernier."
   ],
   "errors": [],
-  "last_change": "2026-11-27T10:58:50Z"
+  "last_change": "2026-11-27T20:01:26Z"
 }
