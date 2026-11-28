@@ -4,10 +4,8 @@
   "model_version": "cc2b106c871f",
   "solver_commit": "ec65f5e2b2be34441cb4b2a9efafea1ec0fe3b79",
   "log": [
-    "GW13 deadline in 94.5h; snapshots start 36h before it.",
-    "Planned team 7632746: GW13 Raya, Calafiori -> Trafford, Hill; captain Tavernier.",
-    "Planned team 895045: GW13 Raya -> Trafford; captain Tavernier."
+    "GW13 deadline in 87.7h; snapshots start 36h before it."
   ],
   "errors": [],
-  "last_change": "2026-11-27T20:01:26Z"
+  "last_change": "2026-11-28T02:46:12Z"
 }
